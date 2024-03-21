@@ -124,3 +124,12 @@
 	justify-content: center;
 	align-items:center;
 }
+
+.delete-button{
+	width:6rem;
+	height:1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius:0.25rem;
+	border:none;
+}
