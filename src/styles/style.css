@@ -35,7 +35,7 @@
 	font-weight: bold;
 }
 
-.type{
+.medicine-type{
 	height:2rem;
 	border-radius: 0.25rem;
 }
@@ -86,14 +86,14 @@
 }
 
 .prescription-medicine-header span{
-	flex-basis:20%;
+	flex-basis:17%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .otc-medicine-header span{
-	flex-basis:20%;
+	flex-basis:17%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
