@@ -25,9 +25,9 @@
 			<label for="expiration">Expiration date:</label>
 			<input type="date" name="expiration" class="expiration">
 
-			<select name="type" id="type">
+			<select name="type" class="type">
 				<option value="prescription">Prescription</option>
-				<option value="otc">Over-the-counter (OTC)</option>
+				<option value="otc">Over-the-counter</option>
 			</select>
 
 			<label for="quantity">Quantity:</label>
@@ -39,7 +39,33 @@
 
 		<section class="medicine-list">
 			<div class="select-list-button-container">
-				<button>Display Medicines</button>
+				<button class="render-prescription-medicine-button">Display Prescription Medicines</button>
+				<button class="render-otc-medicine-button">Display Over-the-Counter Medicines</button>
+			</div>
+
+			<div class="display-medicine-container">
+				<div class="display-prescription-medicine">
+					<header class="prescription-medicine-header">
+						<span>Product name</span>
+						<span>Manufacturer</span>
+						<span>Product ID</span>
+						<span>Expiration date</span>
+					</header>
+					<ul class="prescription-medicine-list">
+						
+					</ul>
+				</div>
+
+				<div class="display-otc-medicine">
+					<header class="otc-medicine-header">
+						<span>Product name</span>
+						<span>Manufacturer</span>
+						<span>Product ID</span>
+						<span>Expiration date</span>
+					</header>
+					<ul class="otc-medicine-list">
+
+					</ul>
 			</div>
 
 		</section>
