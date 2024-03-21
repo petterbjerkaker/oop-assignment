@@ -66,7 +66,6 @@
 .display-medicine-container{
 	flex-basis: 85%;
 	padding: 0 1rem;
-	background-color: burlywood;
 }
 
 .render-prescription-medicine-button, .render-otc-medicine-button{
@@ -102,4 +101,26 @@
 
 .display-otc-medicine{
 	display:none;
+}
+
+.prescription-medicine-row, .otc-medicine-row{
+	display:flex;
+	height:2rem;
+	margin-bottom:0.5rem;
+	border-radius:0.5rem;
+	background-color: darkgrey;
+}
+
+.prescription-medicine-row span{
+	flex-basis:20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.otc-medicine-row span{
+	flex-basis:20%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
 }
