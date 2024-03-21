@@ -25,6 +25,11 @@
 			<label for="expiration">Expiration date:</label>
 			<input type="date" name="expiration" class="expiration">
 
+			<select name="type" id="type">
+				<option value="prescription">Prescription</option>
+				<option value="otc">Over-the-counter (OTC)</option>
+			</select>
+
 			<label for="quantity">Quantity:</label>
 			<input type="text" name="quantity" class="quantity">
 
@@ -33,7 +38,9 @@
 		</form>
 
 		<section class="medicine-list">
-
+			<div class="select-list-button-container">
+				<button>Display Medicines</button>
+			</div>
 
 		</section>
 
