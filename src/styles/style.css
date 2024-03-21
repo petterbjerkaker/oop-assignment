@@ -9,3 +9,15 @@
 	height:100vh;
 	display: flex;
 }
+
+.medicine-form{
+	flex-basis:30%;
+	height:100%;
+	background-color: aqua;
+}
+
+.medicine-list{
+	flex-basis:70%;
+	height:100%;
+	background-color:lightseagreen;
+}
