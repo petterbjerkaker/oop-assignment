@@ -59,12 +59,13 @@
 	justify-content: center;
 	align-items: center;
 	gap:2rem;
+	margin-bottom:1rem;
 	background-color: darkcyan;
 }
 
 .display-medicine-container{
 	flex-basis: 85%;
-	padding: 0 0.25rem;
+	padding: 0 1rem;
 	background-color: burlywood;
 }
 
@@ -80,7 +81,9 @@
 .prescription-medicine-header, .otc-medicine-header{
 	display: flex;
 	height:3rem;
+	background-color: azure;
 	border:2px solid white;
+	border-radius: 0.5rem;
 }
 
 .prescription-medicine-header span{
@@ -95,4 +98,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.display-otc-medicine{
+	display:none;
 }
