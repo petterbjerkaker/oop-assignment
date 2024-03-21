@@ -14,24 +14,24 @@
 			<h2>Register Medicines</h2>
 
 			<label for="name">Product name:</label>
-			<input type="text" name="name" class="name">
+			<input type="text" name="name" class="name" required>
 
 			<label for="manufacturer">Manufacturer:</label>
-			<input type="text" name="manufacturer" class="manufacturer">
+			<input type="text" name="manufacturer" class="manufacturer" required>
 
 			<label for="id">Product ID:</label>
-			<input type="text" name="id" class="id">
+			<input type="text" name="id" class="id" required>
 
 			<label for="expiration">Expiration date:</label>
-			<input type="date" name="expiration" class="expiration">
+			<input type="date" name="expiration" class="expiration" required>
 
-			<select name="type" class="type">
+			<select name="type" class="type" required>
 				<option value="prescription">Prescription</option>
 				<option value="otc">Over-the-counter</option>
 			</select>
 
 			<label for="quantity">Quantity:</label>
-			<input type="number" name="quantity" class="quantity">
+			<input type="number" name="quantity" class="quantity" required>
 
 			<button type="submit" class="submit-button">Register Medicine</button>
 
