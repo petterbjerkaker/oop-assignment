@@ -1,7 +1,7 @@
 const prescriptionMedicines = [];
 const otcMedicines = [];
 
-//----------------------------------------------------------------------
+
 
 const medicineForm = document.querySelector(".medicine-form");
 
@@ -20,7 +20,7 @@ const displayOtcMedicineContainer = document.querySelector(".display-otc-medicin
 const renderPrescriptionMedicineButton = document.querySelector(".render-prescription-medicine-button");
 const renderOtcMedicineButton = document.querySelector(".render-otc-medicine-button");
 
-//------------------------------------------------------------------------------------------------
+
 
 medicineForm.addEventListener("submit", (e) => {
 	e.preventDefault();
